@@ -13,5 +13,9 @@ public final class MainMaquinaB {
         System.out.println("El perro se llama Hercules? " + perro.respondeA("Hercules"));
         perro.ladrar();
         System.out.println("El perro se llama " + perro.getNombre());
+
+        gato.caminar();
+        gato.correr();
+        gato.saltar();
     }
 }
