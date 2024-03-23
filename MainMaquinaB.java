@@ -14,8 +14,14 @@ public final class MainMaquinaB {
         perro.ladrar();
         System.out.println("El perro se llama " + perro.getNombre());
 
+        // Maquina B
         gato.caminar();
         gato.correr();
         gato.saltar();
+
+        // Maquina A
+        perro.caminar();
+        perro.saltar();
+        perro.correr();
     }
 }
